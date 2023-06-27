@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="4dp"
+    android:paddingLeft="5dp"
+    android:layout_marginRight="40dp"
+    android:layout_marginTop="20dp"
+
+  >
+    <RelativeLayout
+       android:layout_gravity="start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/recieverback"
+            android:padding="2dp">
+
+            <TextView
+                android:id="@+id/text1chat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:text="gladson"
+                android:textColor="#073720"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/text1chat"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginBottom="10dp"
+
+
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+            <TextView
+               android:visibility="gone"
+                android:id="@+id/text2chat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView2"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+                android:text="04:55"
+                android:textColor="#073720"
+                android:textSize="12dp" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+</LinearLayout>

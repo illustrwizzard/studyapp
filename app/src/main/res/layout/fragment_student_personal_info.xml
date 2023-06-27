@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".StudentPersonalInfo">
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name     :"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            />
+
+        <TextView
+            android:textColor="@color/black"
+            android:id="@+id/studentname_in_stprofile"
+            android:paddingLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Student Name"
+
+            android:textSize="18dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email      :"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            />
+
+        <TextView
+            android:textColor="@color/black"
+            android:id="@+id/studentemail_in_stprofile"
+            android:paddingLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="studentmail@gmail.com"
+
+            android:textSize="18dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Batch     :"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            />
+
+        <TextView
+            android:textColor="@color/black"
+            android:id="@+id/studentbatch_in_stprofile"
+            android:paddingLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ielts"
+
+            android:textSize="18dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mobile   :"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            />
+
+        <TextView
+            android:textColor="@color/black"
+            android:id="@+id/studentmob_in_stprofile"
+            android:paddingLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1234567890"
+
+            android:textSize="18dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address :"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            />
+
+        <TextView
+            android:textColor="@color/black"
+            android:id="@+id/studentAddress_in_stprofile"
+            android:paddingLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Student Name ddddddddddddddddddd"
+
+            android:textSize="18dp"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

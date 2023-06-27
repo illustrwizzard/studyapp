@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".inside_assignment_layout">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/qoq"
+
+        android:layout_width="match_parent"
+        android:background="#4E89EF"
+        android:layout_height="50dp">
+        <LinearLayout
+            android:paddingLeft="5dp"
+            android:layout_width="match_parent"
+            android:gravity="center_vertical"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/backbuttoninAdminAddAssignment10"
+                android:layout_width="30dp"
+                android:src="@drawable/ic_arrow"
+                android:layout_height="30dp"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Assignment"
+                android:textSize="18dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <RelativeLayout
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/qoq"
+        android:padding="10dp"
+        android:id="@+id/re1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:elevation="3dp">
+
+        <TextView
+            android:id="@+id/batchname_assign"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:text="Batch Name"
+            android:textColor="@color/black"
+            android:textStyle="normal" />
+
+        <TextView
+            android:padding="6dp"
+            android:id="@+id/textre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/background3"
+            android:gravity="center"
+            android:text="Pending..."
+            android:textSize="15dp" />
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+
+        android:id="@+id/bubububububu"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/re1"
+        android:layout_marginTop="5dp"
+        android:background="@color/white"
+        android:elevation="3dp"
+        android:gravity="center_vertical"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/yoyoyoyoyoy"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:paddingLeft="5dp"
+            android:src="@drawable/file_pdf" />
+
+        <TextView
+            android:id="@+id/classwork"
+            android:layout_width="121dp"
+            android:layout_height="32dp"
+            android:layout_marginLeft="26dp"
+            android:layout_toRightOf="@id/yoyoyoyoyoy"
+            android:text="Assignmnet Name" />
+
+        <ImageView
+            android:id="@+id/yoyoyoyoyoy32"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="149dp"
+            android:layout_marginEnd="20dp"
+
+            android:src="@drawable/file_document" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/mkmkmkmkm11"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/bubububububu"
+        android:layout_marginTop="15dp"
+        android:gravity="center_vertical"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/retext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:paddingLeft="5dp"
+            android:text="UPLOAD ASSIGNMENT" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+
+        android:id="@+id/uploadstu_assignment"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@id/mkmkmkmkm11"
+        android:layout_marginTop="15dp"
+
+        android:padding="10dp"
+        android:elevation="3dp">
+
+        <RelativeLayout
+            android:id="@+id/uploadassignmnet"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#DFDEDE"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:gravity="center"
+                android:text="Upload Assignment"
+                android:textAlignment="center"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/upimgggggw"
+
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/uploadd" />
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="5dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/lastrelative">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/btn_corner_set"
+            android:text="Submit Assignment"
+            android:textColor="@color/white" />
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+</RelativeLayout>

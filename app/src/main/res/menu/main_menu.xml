@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_download"
+            android:title="@string/Offline" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_folder"
+            android:title="@string/study_materials" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_text"
+            android:title="@string/Fee_Tests" />
+        <item
+            android:id="@+id/nav_tools"
+            android:icon="@drawable/ic_sms"
+            android:title="@string/Student_Testimonial" />
+
+        <item
+            android:id="@+id/nav_home1"
+            android:icon="@drawable/ic_account"
+            android:title="@string/Edit_Profile" />
+        <item
+            android:id="@+id/nav_gallery2"
+            android:icon="@drawable/ic_indeterminate"
+            android:title="@string/Payments" />
+        <item
+            android:id="@+id/nav_slideshow3"
+            android:icon="@drawable/ic_settings"
+            android:title="@string/Settings" />
+        <item
+            android:id="@+id/nav_tools4"
+            android:icon="@drawable/ic_question_mark"
+            android:title="@string/How_to_use_the_App"/>
+        <item
+            android:id="@+id/nav_tools5"
+            android:icon="@drawable/ic_privacy"
+            android:title="@string/Privacy_Policy"/>
+    </group>
+
+
+
+</menu>

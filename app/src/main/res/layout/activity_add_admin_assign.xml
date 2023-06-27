@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddAdminAssign">
+
+
+
+    <com.google.android.material.appbar.AppBarLayout
+
+        android:layout_width="match_parent"
+        android:background="#4E89EF"
+        android:layout_height="50dp">
+        <LinearLayout
+            android:paddingLeft="5dp"
+            android:layout_width="match_parent"
+            android:gravity="center_vertical"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/backbuttoninAdminAddAssignment"
+                android:layout_width="30dp"
+                android:src="@drawable/ic_arrow"
+                android:layout_height="30dp"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add Assignment"
+                android:textSize="18dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+
+
+
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:paddingLeft="10dp"
+            android:background="@drawable/borderdesign1"
+            android:id="@+id/getbatch_Aid"
+            android:layout_marginTop="20dp"
+            android:hint="Add Batch"
+            android:textColorHint="#9A9898"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            />
+
+
+
+        <EditText
+            android:paddingLeft="10dp"
+            android:background="@drawable/borderdesign1"
+            android:id="@+id/getTitle_Aid"
+            android:layout_marginTop="20dp"
+            android:hint="Title"
+            android:textColorHint="#9A9898"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            />
+
+
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:gravity="start"
+            android:text="Submission Date"
+            android:textSize="16dp"
+            android:textColor="#9A9898"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+
+        <TextView
+            android:background="@drawable/borderdesign1"
+            android:id="@+id/getsubmissionDate"
+            android:layout_marginTop="10dp"
+            android:hint="dd-mm-yy"
+            android:gravity="start|center"
+            android:paddingLeft="10dp"
+            android:textSize="18dp"
+            android:textColorHint="#9A9898"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            />
+        <androidx.cardview.widget.CardView
+
+            android:id="@+id/uploadfile"
+
+            android:layout_marginTop="20dp"
+            app:cardCornerRadius="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+            <RelativeLayout
+                android:background="#DFDEDE"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="50dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="20dp"
+                    android:gravity="center"
+                    android:text="Upload Assignment"
+                    android:textAlignment="center"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/upimggggg"
+
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginRight="20dp"
+                    android:src="@drawable/uploadd" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <Button
+            android:id="@+id/submitUploadAssignment"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:textSize="18dp"
+            android:textColor="@color/white"
+            android:background="@drawable/btn_corner_set"
+            />
+    </LinearLayout>
+
+</LinearLayout>

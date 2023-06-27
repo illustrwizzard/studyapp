@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        app:cardCornerRadius="8dp"
+        app:cardBackgroundColor="#E4E4E4"
+        android:elevation="3dp"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:padding="5dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/testname_in_student"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="assignment name"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="normal" />
+
+            <TextView
+android:visibility="invisible"
+                android:id="@+id/t12"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/background3"
+                android:gravity="center"
+                android:text="Pending.."
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/batchtest_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/testname_in_student"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="10dp"
+                android:text="batch name"
+                android:textSize="15dp" />
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/batchtest_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/dddd"
+                    android:paddingLeft="10dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/ic_time"/>
+
+                <TextView
+
+                    android:id="@+id/submission_test_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="11dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toRightOf="@id/dddd"
+                    android:text="31 Dec 2022," />
+
+
+
+            </RelativeLayout>
+
+
+
+        </RelativeLayout>
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Get_Test_For_Students">
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/qoq"
+
+        android:layout_width="match_parent"
+        android:background="#4E89EF"
+        android:layout_height="50dp">
+        <LinearLayout
+            android:paddingLeft="5dp"
+            android:layout_width="match_parent"
+            android:gravity="center_vertical"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/backbuttoninAdminAddAssignment9"
+                android:layout_width="30dp"
+                android:src="@drawable/ic_arrow"
+                android:layout_height="30dp"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TEST"
+                android:textSize="18dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/re1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/qoq"
+        android:layout_marginTop="20dp"
+        android:background="@color/white"
+        android:elevation="3dp"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/batchname_test"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:text="Batch Name"
+            android:textColor="@color/black"
+            android:textStyle="normal" />
+
+
+        <TextView
+            android:id="@+id/pending"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="20dp"
+            android:background="#E87099"
+            android:padding="6dp"
+            android:paddingLeft="5dp"
+            android:text="pending.."
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            android:textStyle="normal" />
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+
+        android:id="@+id/downlaodtestpdf"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/re1"
+        android:layout_marginTop="15dp"
+        android:background="@color/white"
+        android:elevation="3dp"
+        android:gravity="center_vertical"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/yoyoyoyoyoy"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:paddingLeft="5dp"
+            android:src="@drawable/file_pdf" />
+
+        <TextView
+            android:id="@+id/testnameee"
+            android:layout_width="121dp"
+            android:layout_height="32dp"
+            android:layout_marginLeft="26dp"
+            android:layout_toRightOf="@id/yoyoyoyoyoy"
+            android:text="Test Name" />
+
+        <ImageView
+            android:id="@+id/yoyoyoyoyoy32"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="149dp"
+            android:layout_marginEnd="20dp"
+
+            android:src="@drawable/file_document" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+
+        android:id="@+id/mkmkmkmkm11"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/downlaodtestpdf"
+        android:layout_marginTop="15dp"
+        android:gravity="center_vertical"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/retext1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:paddingLeft="5dp"
+            android:text="UPLOAD TEST" />
+
+
+        <TextView
+            android:id="@+id/retext11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/retext1"
+            android:gravity="center_vertical"
+            android:paddingLeft="5dp"
+            android:text="Mark Obtained :"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/retext2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/retext11"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="" />
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+
+        android:id="@+id/uploadstu_assignment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mkmkmkmkm11"
+        android:layout_marginTop="15dp"
+
+        android:elevation="3dp"
+        android:padding="10dp">
+
+        <RelativeLayout
+
+            android:id="@+id/uploadTest"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#DFDEDE"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:gravity="center"
+                android:text="Upload Test"
+                android:textAlignment="center"
+                android:textSize="18dp"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:id="@+id/upimgggggwt"
+
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/uploadd" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/mark_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/uploadTest"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            >
+
+            <EditText
+                android:id="@+id/put_mark_tutor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/borderdesign1"
+                android:hint="Enter Mark"
+                android:inputType="number"
+                android:minHeight="50dp"
+                android:padding="5dp" />
+
+            <Button
+                android:id="@+id/Submit_mark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/btn_corner_set"
+                android:text="Submit mark"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_marginTop="5dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/submittest">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/btn_corner_set"
+            android:text="Submit TEST"
+            android:textColor="@color/white" />
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

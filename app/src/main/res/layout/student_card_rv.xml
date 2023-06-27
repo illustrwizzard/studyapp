@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:elevation="5dp"
+        app:cardCornerRadius="5dp"
+        android:background="@color/white"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_marginTop="5dp"
+            android:id="@+id/rel_tutor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/text_tutor1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:text="Name              :" />
+
+            <TextView
+                android:id="@+id/text_tutor2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/text_tutor1"
+                android:textStyle="italic"
+                android:text="Gladson john sunny" />
+            <Space
+                android:id="@id/sp1"
+                android:layout_below="@id/text_tutor2"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"/>
+
+
+            <TextView
+
+                android:id="@+id/text_tutor3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/sp1"
+                android:paddingLeft="5dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:text="Batch              :" />
+
+            <TextView
+                android:id="@+id/text_tutor4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/sp1"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/text_tutor3"
+                android:textStyle="italic"
+                android:text="IELTS GENERAL 2022" />
+            <Space
+                android:id="@id/sp2"
+                android:layout_below="@id/text_tutor4"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"/>
+
+            <TextView
+                android:id="@+id/text_tutor5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/sp2"
+                android:paddingLeft="5dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:text="Phone             :" />
+
+            <TextView
+                android:id="@+id/text_tutor6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/sp2"
+                android:layout_marginLeft="10dp"
+                android:textStyle="italic"
+                android:layout_toRightOf="@id/text_tutor5"
+
+                android:text="7907813158" />
+
+            <Space
+                android:id="@+id/sp23"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_below="@id/text_tutor6" />
+
+            <TextView
+                android:id="@+id/text_tutor7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/sp23"
+                android:paddingLeft="5dp"
+                android:text="Attendance    :"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text_tutor8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/sp23"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/text_tutor7"
+                android:text="80%"
+
+                android:textStyle="italic" />
+
+
+
+        </RelativeLayout>
+
+
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    android:orientation="vertical"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ProfilePerformance">
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tab_layout_new"
+        android:layout_width="250dp"
+        app:tabIndicator="@color/teal_700"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:tabSelectedTextColor="@color/white"
+        app:tabBackground="@drawable/selector1"
+        android:background="@drawable/border_design"
+        app:tabTextColor="@color/black"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/view_pger_new"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_weight="7"
+        android:allowClickWhenDisabled="false"
+        android:isScrollContainer="true"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+
+</LinearLayout>

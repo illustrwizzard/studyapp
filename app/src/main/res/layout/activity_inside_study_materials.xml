@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/ism"
+
+        android:layout_width="match_parent"
+        android:background="#4E89EF"
+        android:layout_height="50dp">
+        <LinearLayout
+            android:paddingLeft="5dp"
+            android:layout_width="match_parent"
+            android:gravity="center_vertical"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/backbuttoninAdminAddAssignment11"
+                android:layout_width="30dp"
+                android:src="@drawable/ic_arrow"
+                android:layout_height="30dp"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Study Materials"
+                android:textSize="18dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+    <RelativeLayout
+        android:padding="10dp"
+        android:layout_below="@id/ism"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="20dp"
+
+        android:layout_width="match_parent"
+        app:cardCornerRadius="5dp"
+        android:id="@+id/card1"
+        app:cardBackgroundColor="#D4E0EA"
+
+        android:elevation="3dp"
+        android:outlineSpotShadowColor="@color/black"
+
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imagepdf"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:paddingLeft="5dp"
+                android:src="@drawable/file_pdf" />
+
+
+            <TextView
+                android:id="@+id/text_mmm"
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="Notes"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        app:cardCornerRadius="5dp"
+        android:layout_below="@id/card1"
+        android:id="@+id/card2"
+        android:layout_marginTop="20dp"
+        app:cardBackgroundColor="#D4E0EA"
+        android:elevation="3dp"
+        android:outlineSpotShadowColor="@color/black"
+
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imagepdf2"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:paddingLeft="5dp"
+                android:src="@drawable/video_btn" />
+
+
+            <TextView
+                android:id="@+id/text_mmm2"
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="Video"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+
+
+</RelativeLayout>

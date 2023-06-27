@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".Admin_permisions">
+
+    <LinearLayout
+        android:id="@+id/permissionappbar"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:background="#4E89EF"
+            android:layout_height="50dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:gravity="center_vertical"
+                android:paddingLeft="5dp"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/backbuttoninAdminAddAssignment5"
+                    android:layout_width="30dp"
+                    android:src="@drawable/ic_arrow"
+                    android:layout_height="30dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tutor Permissions"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/white"/>
+
+            </LinearLayout>
+
+        </com.google.android.material.appbar.AppBarLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:padding="15dp"
+        android:layout_below="@id/permissionappbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    <RelativeLayout
+        android:id="@+id/yuo1"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:gravity="center_vertical"
+        android:padding="4dp">
+
+        <TextView
+            android:id="@+id/text_toogle1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:paddingLeft="5dp"
+            android:text="Attendance"
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+
+        <ToggleButton
+            android:id="@+id/toggleButton1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/toogle_design"
+            android:checked="false"
+            android:text=""
+            android:textOff=""
+            android:textOn="" />
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_below="@id/yuo1"
+        android:id="@+id/r1"
+        android:padding="4dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/text_toogle2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:paddingLeft="5dp"
+            android:text="Student"
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+
+        <ToggleButton
+            android:id="@+id/toggleButton2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/toogle_design"
+            android:checked="false"
+            android:text=""
+            android:textOff=""
+            android:textOn="" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_below="@id/r1"
+        android:id="@+id/r2"
+        android:layout_width="match_parent"
+        android:padding="4dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/text_toogle3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:paddingLeft="5dp"
+            android:text="Assignment"
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+
+        <ToggleButton
+            android:id="@+id/toggleButton3"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/toogle_design"
+            android:checked="false"
+            android:text=""
+            android:textOff=""
+            android:textOn="" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:visibility="gone"
+        android:id="@+id/gg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/r2"
+        android:padding="4dp">
+
+        <TextView
+            android:id="@+id/text_toogle4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:paddingLeft="5dp"
+            android:text="Announcement"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <ToggleButton
+            android:id="@+id/toggleButton4"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/toogle_design"
+            android:checked="false"
+            android:text=""
+            android:textOff=""
+            android:textOn="" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/r4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gg"
+        android:padding="4dp">
+
+        <TextView
+            android:id="@+id/text_toogle5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:paddingLeft="5dp"
+            android:text="Tests"
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+
+        <ToggleButton
+            android:id="@+id/toggleButton5"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/toogle_design"
+            android:checked="false"
+            android:text=""
+            android:textOff=""
+            android:textOn="" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/r6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/r4"
+        android:padding="4dp">
+
+        <TextView
+            android:id="@+id/text_toogle7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:paddingLeft="5dp"
+            android:text="Videos"
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+
+        <ToggleButton
+            android:id="@+id/toggleButton7"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/toogle_design"
+            android:checked="false"
+            android:text=""
+            android:textOff=""
+            android:textOn="" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/r5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/r6"
+        android:padding="4dp">
+
+        <TextView
+            android:id="@+id/text_toogle6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:paddingLeft="5dp"
+            android:text="Live Classes"
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+
+        <ToggleButton
+            android:id="@+id/toggleButton6"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/toogle_design"
+            android:checked="false"
+            android:text=""
+            android:textOff=""
+            android:textOn="" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/r9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/r5"
+        android:padding="4dp">
+
+        <TextView
+            android:id="@+id/text_toogle10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:paddingLeft="5dp"
+            android:text="Study Materials"
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+
+        <ToggleButton
+            android:id="@+id/toggleButton10"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/toogle_design"
+            android:checked="false"
+            android:text=""
+            android:textOff=""
+            android:textOn="" />
+
+    </RelativeLayout>
+
+
+    <Button
+        android:id="@+id/apply_permisssion"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/r9"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:background="@drawable/btn_corner_set"
+        android:text="Apply" />
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

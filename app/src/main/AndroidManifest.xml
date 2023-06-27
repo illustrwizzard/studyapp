@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.axis.axislanguageschool">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <queries>
+        <intent>
+            <action android:name="com.google.android.youtube.api.service.START" />
+        </intent>
+    </queries>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AxisStudentApp"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".Get_Test_For_Students"
+            android:exported="false" />
+        <activity
+            android:name=".Test_For_Student"
+            android:exported="false" />
+        <activity
+            android:name=".Assignment_for_student"
+            android:exported="false" />
+        <activity
+            android:name="com.dropbox.core.android.AuthActivity"
+            android:configChanges="keyboard|orientation"
+            android:exported="true"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:scheme="db-6r266cdek89bno8" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Admin_add_video_Section"
+            android:exported="false" />
+        <activity
+            android:name=".ShowStudentsFromTutorBatch"
+            android:exported="false" />
+        <activity
+            android:name=".YoutubeActivity"
+            android:exported="true"
+            android:screenOrientation="locked"/>
+        <activity
+            android:name=".BatchInAdminPerformance"
+            android:exported="false" />
+        <activity
+            android:name=".Student_perfromance_activity_for_tutor_login"
+            android:exported="false" />
+        <activity
+            android:name=".Tutor_perf_for_tutor_login"
+            android:exported="false" />
+        <activity
+            android:name=".ShowBatchInChat"
+            android:exported="false" />
+        <activity
+            android:name=".OTP"
+            android:exported="true" />
+        <activity
+            android:name=".StudyMaterialForStudents"
+            android:exported="false" />
+        <activity
+            android:name=".FromAdminBatchToSudentAndTutor"
+            android:exported="true" />
+        <activity
+            android:name=".Student_info_StudentTab_in_Admin"
+            android:exported="true" />
+        <activity
+            android:name=".AdminRegisterPage"
+            android:exported="false" />
+        <activity
+            android:name=".ChatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MeetingActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AddTestAdmin"
+            android:exported="true" />
+        <activity
+            android:name=".AddAdminAssign"
+            android:exported="true" />
+        <activity
+            android:name=".AddStudent"
+            android:exported="true" />
+        <activity
+            android:name=".Admin_permisions"
+            android:exported="true" />
+        <activity
+            android:name=".tab_for_administration"
+            android:exported="true" />
+        <activity
+            android:name=".AdminPage"
+            android:exported="true" />
+        <activity
+            android:name=".RegisterPage"
+            android:exported="true" />
+        <activity
+            android:name=".BottomNavigation"
+            android:exported="true" />
+        <activity
+            android:name=".PlayVideoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Inside_studyMaterials_activity"
+            android:exported="true" />
+        <activity
+            android:name=".StudyMaterialsPdf"
+            android:exported="true" />
+        <activity
+            android:name=".inside_assignment_layout"
+            android:exported="false" />
+        <activity
+            android:name=".batches_in_o"
+            android:exported="true" />
+        <activity
+            android:name=".menuProfile"
+            android:exported="false" />
+        <activity
+            android:name=".Education_Details"
+            android:exported="false" />
+        <activity
+            android:name=".Address"
+            android:exported="false" />
+        <activity
+            android:name=".profilePersonalDetails"
+            android:exported="true" />
+        <activity
+            android:name=".LoginPage"
+            android:exported="true" />
+        <activity
+            android:name=".profilePersonInformation"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

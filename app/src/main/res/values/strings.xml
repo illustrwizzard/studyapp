@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Axis Language School</string>
+    <string name="home">Home</string>
+    <string name="Batches">Batches</string>
+    <string name="Chats">Chats</string>
+    <string name="Profile">Profile</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dropbox_app_key">"6r266cdek89bno8"</string>
+
+
+    <string name="Offline">Offline Downloads</string>
+    <string name="study_materials">Study Materials</string>
+    <string name="Fee_Tests">Fee Tests</string>
+    <string name="Student_Testimonial">Student Testimonial</string>
+    <string name="Edit_Profile">Edit Profile</string>
+    <string name="Payments">Payments</string>
+    <string name="Settings">Settings</string>
+    <string name="How_to_use_the_App">How to use the App</string>
+    <string name="Privacy_Policy">Privacy Policy</string>
+    <string name="Search">Search..</string>
+</resources>

@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".ProfileInfo">
+<androidx.core.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/idreid"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/white"
+            android:elevation="3dp"
+            android:paddingLeft="5dp"
+            android:gravity="center_vertical">
+
+            <ImageView
+
+                android:id="@+id/img1txt"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/i1" />
+
+            <TextView
+                android:id="@+id/t1text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="17dp"
+                android:layout_toRightOf="@+id/img1txt"
+                android:gravity="center_vertical"
+                android:text="Person Information"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/t1text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:layout_toRightOf="@+id/t1text"
+
+                android:gravity="center_vertical"
+                android:text="Edit"
+                android:textColor="#2196F3"
+                android:textSize="15dp"
+                android:textStyle="normal" />
+
+            <ImageView
+
+                android:id="@+id/img1txt56"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/t1text1"
+                android:src="@drawable/edit1" />
+
+
+        </RelativeLayout>
+
+        <Space
+            android:layout_below="@+id/idreid"
+            android:id="@+id/sp1"
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            />
+
+        <RelativeLayout
+            android:id="@+id/idreido"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/sp1"
+            android:background="@color/white"
+            android:elevation="3dp"
+            android:paddingLeft="5dp"
+            android:gravity="center_vertical">
+
+            <ImageView
+
+                android:id="@+id/img1txt0"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/i1" />
+
+            <TextView
+                android:id="@+id/t1textoo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="17dp"
+                android:layout_toRightOf="@+id/img1txt0"
+                android:gravity="center_vertical"
+                android:text="Parent's Information"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/t1text11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="75dp"
+                android:layout_toRightOf="@+id/t1textoo"
+                android:gravity="center_vertical"
+                android:text="Edit"
+                android:textColor="#2196F3"
+                android:textSize="15dp"
+                android:textStyle="normal" />
+
+            <ImageView
+
+                android:id="@+id/img1txt561"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/t1text11"
+                android:src="@drawable/edit1" />
+
+
+        </RelativeLayout>
+
+        <Space
+            android:layout_below="@+id/idreido"
+            android:id="@+id/sp2"
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            />
+
+        <RelativeLayout
+            android:id="@+id/idreido1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/sp2"
+            android:background="@color/white"
+            android:elevation="3dp"
+            android:paddingLeft="5dp"
+            android:gravity="center_vertical">
+
+            <ImageView
+
+                android:id="@+id/img1txt01"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/i2" />
+
+            <TextView
+                android:id="@+id/t1textooo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="17dp"
+                android:layout_toRightOf="@+id/img1txt01"
+                android:gravity="center_vertical"
+                android:text="Personal Details"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/t1text111"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="105dp"
+                android:layout_toRightOf="@+id/t1textooo"
+                android:gravity="center_vertical"
+                android:text="Edit"
+                android:textColor="#2196F3"
+                android:textSize="15dp"
+                android:textStyle="normal" />
+
+            <ImageView
+
+                android:id="@+id/img1txt5611"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/t1text111"
+                android:src="@drawable/edit1" />
+
+
+        </RelativeLayout>
+
+
+        <Space
+            android:layout_below="@+id/idreido1"
+            android:id="@+id/sp3"
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            />
+
+        <RelativeLayout
+            android:id="@+id/idreido12"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/sp3"
+            android:background="@color/white"
+            android:elevation="3dp"
+            android:paddingLeft="5dp"
+            android:gravity="center_vertical">
+
+            <ImageView
+
+                android:id="@+id/img1txt0118"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/i3" />
+
+            <TextView
+                android:id="@+id/t1textoooo0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="17dp"
+                android:layout_toRightOf="@+id/img1txt0118"
+                android:gravity="center_vertical"
+                android:text="Address"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/t1text1111"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="158dp"
+                android:layout_toRightOf="@+id/t1textoooo0"
+                android:gravity="center_vertical"
+                android:text="Edit"
+                android:textColor="#2196F3"
+                android:textSize="15dp"
+                android:textStyle="normal" />
+
+            <ImageView
+
+                android:id="@+id/img1txt56111"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/t1text1111"
+                android:src="@drawable/edit1" />
+
+
+        </RelativeLayout>
+
+        <Space
+            android:id="@+id/sp4"
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:layout_below="@+id/idreido12" />
+
+        <RelativeLayout
+            android:id="@+id/idreido11"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/sp4"
+            android:background="@color/white"
+            android:elevation="3dp"
+            android:paddingLeft="5dp"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/img1txt011"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/i4" />
+
+            <TextView
+                android:id="@+id/t1textoooo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="17dp"
+                android:layout_toRightOf="@+id/img1txt011"
+                android:gravity="center_vertical"
+                android:text="Educational Details"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/t1text11111"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="85dp"
+                android:layout_toRightOf="@+id/t1textoooo"
+                android:gravity="center_vertical"
+                android:text="Edit"
+                android:textColor="#2196F3"
+                android:textSize="15dp"
+                android:textStyle="normal" />
+
+            <ImageView
+
+                android:id="@+id/img1txt561199"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/t1text11111"
+                android:src="@drawable/edit1" />
+
+
+        </RelativeLayout>
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+</androidx.core.widget.NestedScrollView>
+
+
+</FrameLayout>

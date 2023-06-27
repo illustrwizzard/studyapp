@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".profilePersonalDetails">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:background="#4E89EF"
+            android:layout_height="50dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:gravity="center_vertical"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:paddingLeft="5dp"
+                    android:src="@drawable/ic_arrow"
+                    android:layout_height="30dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pearsonal Details"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/white"/>
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="end"
+                    android:text="Save"
+                    android:textColor="@color/white"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </com.google.android.material.appbar.AppBarLayout>
+    </LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:background="@drawable/borderdesign"
+        android:gravity="center_vertical"
+
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_date"
+            />
+
+        <EditText
+            android:id="@+id/pppp55"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Date of Birth"
+            android:minHeight="48dp"
+            android:textColor="@color/black" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:paddingLeft="5dp"
+        android:background="@drawable/borderdesign"
+        android:layout_height="50dp">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_person"
+            />
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            android:id="@+id/radioGroup">
+
+            <RadioButton
+                android:id="@+id/radioMale"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Male"
+
+                android:checked="false"
+                android:textSize="12dp" />
+
+            <RadioButton
+                android:id="@+id/radioFemale"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Female"
+
+                android:checked="false"
+
+                android:textSize="12dp" />
+        </RadioGroup>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:paddingLeft="5dp"
+        android:background="@drawable/borderdesign"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/location1"
+            />
+       <Spinner
+           android:id="@+id/sp1"
+           android:layout_width="match_parent"
+           android:layout_height="50dp"
+           />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:paddingLeft="5dp"
+        android:background="@drawable/borderdesign"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/analytic"
+            />
+        <Spinner
+            android:id="@+id/sp2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+          android:paddingLeft="5dp"
+        android:background="@drawable/borderdesign"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/privacy1"
+            />
+
+        <EditText
+            android:id="@+id/pppp555"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Aadhar number"
+            android:minHeight="48dp"
+            android:textColor="@color/black" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center_vertical"
+            android:paddingLeft="5dp"
+        android:background="@drawable/borderdesign"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_photo"
+            />
+
+      <Button
+          android:layout_width="100dp"
+          android:layout_height="40dp"
+          android:background="@drawable/btn_corner_set"
+          android:text="Aadhar Card \nImage"
+          android:textColor="@color/white"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+          android:layout_marginTop="5dp"
+        android:paddingLeft="5dp"
+        android:background="@drawable/borderdesign"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/privacy1"
+            />
+
+        <EditText
+            android:id="@+id/pppp5555"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="PAN number"
+            android:minHeight="48dp"
+            android:textColor="@color/black" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center_vertical"
+          android:paddingLeft="5dp"
+        android:background="@drawable/borderdesign"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_photo"
+            />
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+              android:background="@drawable/btn_corner_set"
+            android:textColor="@color/white"
+            android:text="PAN Card Image"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="5dp"
+          android:background="@drawable/borderdesign"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+
+            android:src="@drawable/ic_photo"
+            />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:background="@drawable/btn_corner_set"
+            android:textColor="@color/white"
+            android:text="Signature Image"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".BatchStudyMaterial">
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/u1u1u1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="5dp"
+        android:background="@drawable/background1"
+        android:elevation="3dp"
+        android:padding="10dp" />
+
+    <RelativeLayout
+        android:id="@+id/rerererere3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/u1u1u1"
+        android:layout_marginTop="5dp"
+        android:paddingLeft="5dp"
+        android:gravity="center_vertical">
+
+
+        <TextView
+            android:id="@+id/text56"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+
+            android:text="Total(1)" />
+
+        <ImageView
+            android:id="@+id/imjjjjjj"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="187dp"
+            android:layout_marginTop="17dp"
+            android:layout_toRightOf="@id/text56"
+            android:src="@drawable/sort" />
+
+        <TextView
+            android:id="@+id/text5634"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_toRightOf="@id/imjjjjjj"
+            android:gravity="center_vertical"
+            android:paddingLeft="5dp"
+            android:text="Sort" />
+
+        <ImageView
+            android:id="@+id/imjjjjjjj"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="17dp"
+            android:layout_toRightOf="@id/text5634"
+            android:src="@drawable/filter" />
+
+        <TextView
+            android:id="@+id/text56344"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_toRightOf="@id/imjjjjjjj"
+            android:gravity="center_vertical"
+            android:paddingLeft="5dp"
+            android:text="Filtter" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@id/rerererere3"
+        android:layout_marginTop="5dp"
+        android:background="@color/white"
+        android:elevation="3dp"
+        android:gravity="center">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/ooooooppppss"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/background2"
+                android:src="@drawable/chain" />
+
+            <TextView
+                android:id="@+id/trtrtrtrtr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_toRightOf="@id/ooooooppppss"
+                android:text="External Link" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/trtrtrtrtr"
+                android:layout_marginLeft="30dp"
+
+                android:layout_marginTop="7dp"
+                android:layout_toRightOf="@id/ooooooppppss"
+                android:text="by Axis Language School" />
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
